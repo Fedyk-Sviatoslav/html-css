@@ -1,3 +1,12 @@
+.main-section {
+    background-color: #232323;
+}
+
+h2, h3, p {
+    color: white;
+    font-family: Yanone Kaffeesatz;
+}
+
 a {
     color: #757575;
     font-family: roboto;
