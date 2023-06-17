@@ -1,45 +1,144 @@
-.main-section {
-    background-color: #232323;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Italiana&family=Montserrat:wght@400;500;600;700;800;900&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
 }
 
-h2, h3, p {
-    color: white;
-    font-family: Yanone Kaffeesatz;
+                        /* сирбул */
+
+.food-first{
+    height: 250px;
+    width: 380px;
+    margin-right: 50px;
 }
 
-a {
-    color: #757575;
-    font-family: roboto;
+.food-second{
+    height: 250px;
+    width: 380px;
 }
 
-ul {
-    list-style: none;
+.food-third{
+    height: 250px;
+    width: 380px;
+    margin-left: 50px;
 }
 
-a {
-    text-decoration: none;
+.drink-first{
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
 }
 
-h2 {
- font-size: 60px;
- text-align: center;
+.drink-second{
+    height: 250px;
+    width: 250px;
 }
 
-h3 {
+.drink-third{
+    height: 250px;
+    width: 180px;
+}
+
+.drink-fourth{
+    height: 250px;
+    width: 250px;
+}
+
+.dissertations-first{
+    height: 250px;
+    width: 330px;
+    margin-right: 50px;
+}
+
+.dissertations-second{
+    height: 250px;
+    width: 330px;
+    margin-left: 50px;
+}
+
+.dissertations-third{
+    height: 250px;
+    width: 330px;
+    margin-left: 100px;
+}
+
+.main-dissertations{
+    display: flex;
+    justify-content: center;
+}
+
+.main-dishes{
+    display: flex;
+    justify-content: center;
+    }
+
+.main-drinks{
+    display: flex;
+    justify-content: center;
+}
+
+.section-dishes{
+    font-family: 'Roboto';
+    font-weight: 500;
     font-size: 30px;
 }
 
-p {
-    font-size: 25px;
+.section-dissertations{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 30px;
 }
 
-img {
-  width: 330px;
-  height: 190px;
+.section-drinken{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.title{
+    color: white;
+}
+
+.text, h4{
+    color: white;
+}
+
+.header-logo{
+    color: rgb(255, 255, 255);
+}
+
+.like{
+    color: rgb(255, 255, 127);
+}
+
+.tables{
+    color: white;
+}
+
+
+
+            /* федик */
+
+
+.about-img {
+    width: 330px;
+    height: 190px;
+    margin: 10px;
 }
 
 .about-container {
     display: flex;
+}
+
+.about-link {
+   color: #b5b4b4;
+}
+
+.about-link:hover {
+    color: black;
+    text-decoration: underline;
 }
 
 .about-text {
@@ -54,3 +153,206 @@ img {
 .time-text {
    margin-left: 30px;
 }
+
+.about-title {
+    padding: 0;
+    margin: 15px;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.about-subtitle {
+    padding: 0;
+    margin: 10px;
+    font-size: 40px;
+}
+
+.about-text {
+    padding: 3px;
+    margin: 10px;
+    font-size: 20px;
+    
+}
+
+.time-subtitle {
+    padding: 0;
+    margin: 20px 20px  5px  20px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.time-text {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.time-list {
+    justify-content: center;
+}
+
+.time-description {
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 20%;
+    border: dashed #232323;
+}
+
+
+
+
+
+                /* форгіль */
+
+.porsonal {
+    background-color: #676767;
+}
+
+ .personal-title {
+    font-size: 56px;
+    text-align: center;
+ }
+
+.personal-section-img {
+    paddingi-left: 30px ;
+}
+
+ .personal-list {
+    display: flex;
+    justify-content: center;
+ }
+
+ .personal-section {
+    width: 160px;
+    height: 210px;
+    margin-left: 60px;
+ }
+
+ .personal-section-title {
+    text-align: center;
+ }
+
+ .personal-section-img {
+    width: 100px;
+    height: 100px;
+    padding: 0px 30px 0px 30px;
+ }
+ .personal-section-text {
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 7px;
+ }
+
+ .personal-section-link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 35px;
+    color:#ffffff;
+    opacity: 0.6;
+    width: 100px;
+    height: 27px;
+    border: 2px solid #cac9c9 ;
+    border-radius: 50px;
+ }
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    width: 1300px;
+    background-color: #232323;
+    height: 100px;
+}
+
+ .container-footer {
+    border-radius: 0px 0px 100px 100px;
+    height: 500px;
+    width: 1300px;
+    margin: auto;
+    background-color: #232323;
+    margin-bottom: 100px;
+ }
+
+ .container-main {
+    width: 1300px;
+    margin: auto;
+    background-color: #676767;
+ }
+
+ .footer-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+ }
+
+
+
+ .footer-img {
+    margin-left: 30px;
+    height: 29px;
+    width: 29px;
+    position: relative;
+ }
+
+ .footer-title{
+    font-size: 56px;
+    text-align: center;
+    padding-top: 200px;
+ }
+
+.footer-text {
+    text-align: center;
+    opacity: 0.8;
+    font-size: 22px;
+    width: 220px;
+    margin-left: 540px;
+    margin-top: 20px;
+}
+
+.footer-form {
+    margin-top: 50px;
+    display: flex;
+    margin-left: 400px;
+}
+
+.footer-input {
+    padding-left: 30px;
+    outline: none;
+    border: none;
+    width: 353px;
+    height: 30px;
+    background: #545454;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.footer-input::placeholder {
+    color: #fff;
+    padding-left: 15px;
+}
+
+
+.footer-form-link {
+    margin-left: 300px ;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    position: absolute;
+    width: 160px;
+    height: 12px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+    }
